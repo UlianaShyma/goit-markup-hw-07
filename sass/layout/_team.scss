@@ -1,9 +1,4 @@
 .team {
-  /* margin: 0 auto; */
-  background-color: #f5f4fa;
-}
-
-.team__list {
   display: flex;
 }
 
@@ -24,7 +19,7 @@
   text-align: center;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -32,7 +27,7 @@
   letter-spacing: 0.03em;
 }
 
-.team__job {
+.team__text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;

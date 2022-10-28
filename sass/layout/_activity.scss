@@ -1,14 +1,10 @@
 .activity {
-  padding-top: 0;
-}
-
-.activity__thumb {
-  position: relative;
-}
-
-.activity__img {
   display: flex;
   column-gap: 30px;
+}
+ 
+.activity__thumb {
+  position: relative;
 }
 
 .activity__text {

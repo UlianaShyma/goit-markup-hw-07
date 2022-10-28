@@ -51,14 +51,14 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background-color var(--transition-dur-and-func);
-}
-
-.subscribe-form__icon {
-  margin-left: 10px;
-  fill: var(--text-white-color);
 
   &:hover,
   &:focus {
     background-color: #188ce8;
   }
+}
+
+.subscribe-form__icon {
+  margin-left: 10px;
+  fill: var(--text-white-color);
 }
