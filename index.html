@@ -18,22 +18,22 @@
   <body>
     <!-- Header navigation -->
     <header class="header">
-      <div class="header-container container">
+      <div class="header__container container">
         <a href="./index.html" class="logo link">Web<span class="logo__text-dark">Studio</span></a>
         <nav class="page-nav">
           <ul class="menu">
             <li class="menu__item">
-              <a class="menu__link link menu__link-current" href="./index.html">Студія</a>
+              <a class="menu__link menu__link--current" href="./index.html">Студія</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link link" href="./portfolio.html">Портфоліо</a>
+              <a class="menu__link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="menu__item"><a class="menu__link link" href="">Контакти</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contact">
           <li class="contact__item">
-            <a class="contact__link link" href="mailto:info@devstudio.com">
+            <a class="contact__link" href="mailto:info@devstudio.com">
               <svg class="contact__icon" width="16" height="12">
                 <use href="./img/sprite.svg#icon-envelope"></use>
               </svg>
@@ -41,7 +41,7 @@
             >
           </li>
           <li class="contact__item">
-            <a class="contact__link link" href="tel:+380961111111">
+            <a class="contact__link" href="tel:+380961111111">
               <svg class="contact__icon" width="10" height="16">
                 <use href="./img/sprite.svg#icon-smartphone"></use>
               </svg>
@@ -64,10 +64,10 @@
       </section>
 
       <!-- Features section -->
-      <section class="section features">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Переваги</h2>
-          <ul class="features__list">
+          <ul class="features">
             <li class="features__item">
               <div class="features__thumb">
                 <svg class="features__icon" width="70px" height="70px">
@@ -117,10 +117,10 @@
       </section>
 
       <!-- Activity section -->
-      <section class="section activity">
+      <section class="section section__no-padding-top">
         <div class="container">
-          <h2 class="title">Чим ми займаємося</h2>
-          <ul class="activity__img">
+          <h2 class="section__title">Чим ми займаємося</h2>
+          <ul class="activity">
             <li class="activity__item">
               <div class="activity__thumb">
                 <img src="img/foto_action_1.jpg" alt="друкує на клавіатурі" width="370" />
@@ -144,15 +144,15 @@
       </section>
 
       <!-- Our team section -->
-      <section class="section team">
+      <section class="section section__team-bg">
         <div class="container">
-          <h2 class="title">Наша команда</h2>
-          <ul class="team__list">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="team">
             <li class="team__item">
               <img src="img/our_team_1.jpg" alt="Ігор Дем'яненко" width="270" />
               <div class="team__content">
-                <h3 class="team__name">Ігор Дем'яненко</h3>
-                <p lang="en" class="team__job">Product Designer</p>
+                <h3 class="team__title">Ігор Дем'яненко</h3>
+                <p lang="en" class="team__text">Product Designer</p>
                 <ul class="media-list team-media-list">
                   <li class="media-list__item">
                     <a href=" " class="media-list__link media-list__link-silver">
@@ -208,8 +208,8 @@
             <li class="team__item">
               <img src="img/our_team_2.jpg" alt="Ольга Рєпіна" width="270" />
               <div class="team__content">
-                <h3 class="team__name">Ольга Рєпіна</h3>
-                <p lang="en" class="team__job">Frontend Developer</p>
+                <h3 class="team__title">Ольга Рєпіна</h3>
+                <p lang="en" class="team__text">Frontend Developer</p>
                 <ul class="media-list">
                   <li class="media-list__item">
                     <a href=" " class="media-list__link media-list__link-silver">
@@ -265,8 +265,8 @@
             <li class="team__item">
               <img src="img/our_team_3.jpg" alt="Микола Тарасов" width="270" />
               <div class="team__content">
-                <h3 class="team__name">Микола Тарасов</h3>
-                <p lang="en" class="team__job">Marketing</p>
+                <h3 class="team__title">Микола Тарасов</h3>
+                <p lang="en" class="team__text">Marketing</p>
                 <ul class="media-list">
                   <li class="media-list__item">
                     <a href=" " class="media-list__link media-list__link-silver">
@@ -322,8 +322,8 @@
             <li class="team__item">
               <img src="img/our_team_4.jpg" alt="Михайло Єрмаков" width="270" />
               <div class="team__content">
-                <h3 class="team__name">Михайло Єрмаков</h3>
-                <p lang="en" class="team__job">UI Designer</p>
+                <h3 class="team__title">Михайло Єрмаков</h3>
+                <p lang="en" class="team__text">UI Designer</p>
                 <ul class="media-list">
                   <li class="media-list__item">
                     <a href=" " class="media-list__link media-list__link-silver">
@@ -381,10 +381,10 @@
       </section>
 
       <!-- Clients section -->
-      <section class="section clients">
+      <section class="section">
         <div class="container">
-          <h2 class="title">Постійні клієнти</h2>
-          <ul class="clients__list">
+          <h2 class="section__title">Постійні клієнти</h2>
+          <ul class="clients">
             <li class="clients__item">
               <a href="" class="clients__link">
                 <svg class="clients__icon" width="106" height="60">
@@ -436,14 +436,14 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__contact">
-          <a class="logo link logo__footer" href="./index.html"
+          <a class="logo logo__footer" href="./index.html"
             >Web<span class="logo__text-white">Studio</span></a
           >
-          <address class="address">
-            <ul class="address__list">
+          <address class="address-section">
+            <ul class="address">
               <li class="address__item">
                 <a
-                  class="address__location link"
+                  class="address__location"
                   href="https://goo.gl/maps/BwEUq69gMEttFAh37"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
@@ -451,12 +451,10 @@
                 >
               </li>
               <li class="address__item">
-                <a class="address__conctact link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="address__conctact" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address__item">
-                <a class="address__conctact link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="address__conctact" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
